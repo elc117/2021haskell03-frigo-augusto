@@ -44,7 +44,6 @@ selectSnd :: [(Int,Int)] -> [Int]
 selectSnd list = [snd x | x <- list]
 
 dotProd :: [Int] -> [Int] -> Int
---calcule o somatório dos produtos dos pares de elementos de duas listas
 dotProd list1 list2 = sum [fst x * snd x| x <-zip list1 list2]
 
 
